@@ -1,0 +1,29 @@
+{
+  "project_dir": ".",
+  "work_dir": "work",
+  "out_file": "out/final.mp4",
+  "narration_file": "examples/narration.example.json",
+
+  "width": 1280,
+  "height": 720,
+  "fps": 25,
+  "crf": 18,
+
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+8%",
+
+  "motion": {
+    "mode": "auto",
+    "zoom": 0.12
+  },
+
+  "stills": {
+    "provider": "command",
+    "options": {
+      "template": "python my_image_api.py --prompt \"{prompt}\" --out \"{output}\"",
+      "env": {
+        "AGNES_API_KEY": "replace-me"
+      }
+    }
+  }
+}

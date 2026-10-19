@@ -1,0 +1,28 @@
+name: 功能建议
+description: 新 provider、新滤镜、新工作流
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决什么问题
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 期望的做法
+      description: 如果已经有思路或现成命令，直接贴出来
+  - type: dropdown
+    id: area
+    attributes:
+      label: 涉及环节
+      options:
+        - 配音（tts）
+        - 出图（stills）
+        - 运动画面（motion）
+        - 组装（assemble）
+        - 命令行 / 配置
+        - 文档
+    validations:
+      required: true

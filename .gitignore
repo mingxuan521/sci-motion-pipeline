@@ -1,0 +1,25 @@
+# 中间产物与成片
+work/
+out/
+*.mp4
+*.mp3
+
+# 本地配置与密钥
+config.json
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

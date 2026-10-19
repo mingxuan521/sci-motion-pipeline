@@ -1,0 +1,30 @@
+{
+  "project_dir": ".",
+  "work_dir": "work",
+  "out_file": "out/final.mp4",
+  "narration_file": "examples/narration.example.json",
+
+  "width": 1280,
+  "height": 720,
+  "fps": 25,
+  "crf": 18,
+
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+8%",
+  "sentence_sep": "。",
+  "sentences_per_theme": 3,
+  "xfade": 0.4,
+
+  "motion": {
+    "mode": "auto",
+    "zoom": 0.12,
+    "min_clip": 0.0
+  },
+
+  "stills": {
+    "provider": "synthetic",
+    "options": {}
+  },
+
+  "prompt_prefix": "科学可视化风格，超写实微观摄影感，柔和冷色环境光，浅景深，干净的深色背景，无文字，16:9 构图："
+}

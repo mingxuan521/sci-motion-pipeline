@@ -1,0 +1,5 @@
+# 依赖保持最小化：核心流程只需要 edge-tts（配音）与 aiohttp。
+# imageio-ffmpeg 可选，装上后无需自己安装 ffmpeg 二进制。
+edge-tts>=7.0.0
+aiohttp>=3.9.0
+imageio-ffmpeg>=0.4.9

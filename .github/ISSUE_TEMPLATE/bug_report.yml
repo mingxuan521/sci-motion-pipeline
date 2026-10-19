@@ -1,0 +1,35 @@
+name: bug 反馈
+description: 跑不通、产物不对、报错
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 先贴 `python -m sci_motion doctor` 的输出，能省一轮来回。
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 用的命令、配置文件关键部分
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      description: 贴报错堆栈或 ffmpeg 尾部日志
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      description: 系统 / Python 版本 / ffmpeg 版本 / 是否有 GPU
+      placeholder: Windows 11, Python 3.13, ffmpeg 9.0.2, 无独显
+    validations:
+      required: true
