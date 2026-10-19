@@ -8,6 +8,10 @@
 python -m sci_motion all -c config.json
 ```
 
+> **关于这个仓库**：作者是刚接触 GitHub 的新手，正在学习怎么用 AI 辅助把日常生活里重复、
+> 耗时的事情自动化。科学可视化视频是第一个拿来练手的对象——原来要手动折腾半天的活，
+> 现在一条命令跑完。代码写得粗糙的地方，非常欢迎指正。
+
 ---
 
 ## 为什么会有这个项目
@@ -156,6 +160,15 @@ python -m sci_motion assemble -c config.json
 - [ ] 字幕烧录（ASS/SRT）
 - [ ] 背景音乐自动避让（ducking）
 - [ ] ComfyUI Wan2.2 I2V 直连适配器
+
+## 致谢
+
+- 特别感谢 **adu（阿杜）** 的开源项目 [adu-motion-video](https://github.com/adunext/adu-motion-video)，
+  以及他的全部视频教程。本项目的灵感与实践起点都来自那里——
+  正是跟着他的内容上手，一个 GitHub 新手才敢把这套流程整理出来、发出去。
+  强烈推荐去看他的仓库。
+- 感谢 ffmpeg 与 edge-tts，这两个项目让"零成本批量做视频"成为可能。
+- 感谢所有愿意给新手提 Issue 和 PR 的人。
 
 ## License
 
